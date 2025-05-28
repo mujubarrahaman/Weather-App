@@ -25,7 +25,7 @@
 }
 .search-bar input{
     height: 50px;
-    border: 2px solid  transparent;
+    border: 2px solid transparent;
     
     border-radius: 40px;
     padding-left: 25px;
@@ -37,7 +37,7 @@
 
 }
 .search-bar input:focus{
-    border-color: #eeff04;
+    border-color:  #471f7c;
 }
 .search-bar input::placeholder{
     font-size: .9rem;
