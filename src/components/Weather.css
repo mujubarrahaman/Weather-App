@@ -11,6 +11,12 @@
    
 }
 
+.weather h1{
+    font-size: 1.5rem;
+    color: rgb(236, 236, 159);
+    margin-bottom: 15px;
+}
+
 
 .search-bar{
     display: flex;

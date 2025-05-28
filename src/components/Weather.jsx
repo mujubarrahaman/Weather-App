@@ -58,6 +58,7 @@ const Weather = () => {
     }
     return (
         <div className='weather'>
+            <h1>Weather Report !</h1>
             <div className="search-bar">
                 <input onChange={handleCity} type="text" placeholder='search' />
                 <img className='search-bar' src={search_icon} alt="" onClick={getWeather} />
