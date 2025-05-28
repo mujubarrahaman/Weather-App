@@ -25,13 +25,22 @@
 }
 .search-bar input{
     height: 50px;
-    border: none;
-    outline: auto;
+    border: 2px solid  transparent;
+    
     border-radius: 40px;
     padding-left: 25px;
-    color: #626262;
-    background: #ebfffc;
+    /* color: #626262;
+    background: #ebfffc; */
     font-size: 18px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.088);
+    transition: border .3s ease-in-out;
+
+}
+.search-bar input:focus{
+    border-color: #eeff04;
+}
+.search-bar input::placeholder{
+    font-size: .9rem;
 }
 .search-bar img{
     width: 50px;
